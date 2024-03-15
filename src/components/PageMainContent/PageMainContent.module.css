@@ -1,0 +1,19 @@
+.wrapper {
+    display: grid;
+    justify-content: center;
+    width: 100vw;
+}
+
+.pageMainContent {
+    align-items: center;
+    display: grid;
+    justify-content: center;
+    height: 100vh;
+    width: 600px;
+}
+
+@media screen and (max-width: 600px) {
+    .pageMainContent {
+        width: 100vw
+    }
+}

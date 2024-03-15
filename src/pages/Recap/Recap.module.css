@@ -1,0 +1,37 @@
+.recap {
+    align-items: center;
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    width: inherit;
+}
+
+.players {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.player {
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+}
+
+.customHeading {
+    width: fit-content;
+    place-self: center;
+}
+
+.stat {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.label {
+    text-align: right;
+}
+
+.value {
+    text-align: left;
+}

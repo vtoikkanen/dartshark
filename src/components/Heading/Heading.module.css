@@ -1,0 +1,17 @@
+.heading {
+    display: grid;
+    font-size: 42px;
+    justify-content: center;
+}
+
+.level2 {
+    font-size: 36px;
+}
+
+.level3 {
+    font-size: 30px;
+}
+
+.level4 {
+    font-size: 24px;
+}

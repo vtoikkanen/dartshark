@@ -1,0 +1,174 @@
+.game {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    height: 100vh;
+    width: inherit;
+}
+
+.header {
+    align-items: center;
+    color: #FFF;
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 50px;
+    text-align: center;
+}
+
+.header:nth-child(1) {
+    background-color: #2980b9;
+}
+
+.header:nth-child(2) {
+    background-color: #3498db;
+}
+
+.status {
+    background-color: #34495e;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    height: 40px;
+    justify-content: center;
+    padding: 5px;
+}
+
+.setsAndLegs {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+.sets {
+    background-color: #2980b9;
+    border-radius: 5px;
+    color: #FFF;
+    padding: 5px;
+    place-self: end;
+    width: fit-content;
+}
+
+.legs {
+    display: flex;
+    background-color: #3498db;
+    border-radius: 5px;
+    color: #FFF;
+    padding: 5px;
+    place-self: start;
+    width: fit-content;
+}
+
+.turns {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr;
+    height: 40px;
+}
+
+.turn {
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+
+.turn.active {
+    background-color: #ecf0f1;
+}
+
+.players {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr;
+    height: 200px;
+}
+
+.player {
+    align-items: center;
+    background-color: #ecf0f1;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+.throws {
+    background-color: #34495e;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 50px;
+    padding: 5px 5px 0 5px;
+}
+
+.throw {
+    align-items: center;
+    display: grid;
+    font-size: 20px;
+    text-align: center;
+    background-color: #ecf0f1;
+}
+
+.keyboard {
+    background-color: #34495e;
+    display: grid;
+    grid-template-rows: 50px 1fr 50px;
+    height: calc(100vh - 430px);
+}
+
+.multipliers {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(6, 1fr);
+    height: 50px;
+    padding: 5px;
+}
+
+.multiplier {
+    background-color: #3498db;
+    color: #FFF;
+    align-items: center;
+    display: grid;
+    justify-content: center;
+}
+
+.activeMultiplier {
+    background-color: #2980b9;
+}
+
+.numbers {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 0 5px 0 5px;
+}
+
+.number {
+    align-items: center;
+    display: grid;
+    font-size: 24px;
+    text-align: center;
+    background-color: #ecf0f1;
+}
+
+.turnOptions {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr;
+    padding: 5px;
+}
+
+.turnOption {
+    align-items: center;
+    color: #FFF;
+    display: grid;
+    text-align: center;
+}
+
+.back {
+    background-color: #e74c3c;
+}
+
+.next {
+    background-color: #2ecc71;
+}

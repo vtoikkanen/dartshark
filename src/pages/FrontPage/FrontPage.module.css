@@ -1,0 +1,14 @@
+.frontPage {
+    align-items: center;
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    width: inherit;
+}
+
+.logo {
+    display: flex;
+    justify-self: center;
+    width: 150x;
+    height: 150px;
+}

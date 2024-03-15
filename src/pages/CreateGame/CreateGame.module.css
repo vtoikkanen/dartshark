@@ -1,0 +1,8 @@
+.createGame {
+    align-items: center;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr;
+    padding: 20px;
+    width: inherit;
+}
