@@ -3,8 +3,14 @@ import Button from "../../components/Button/Button";
 
 import styles from "./Popup.module.css";
 
-const Popup = ({type, undoCallback, continueCallback}) => {
-    const gameState = JSON.parse(localStorage.getItem("gameState"));
+interface IPopupProps {
+    type: any,
+    undoCallback: any,
+    continueCallback: any
+}
+
+const Popup = ({ type, undoCallback, continueCallback }: IPopupProps) => {
+    const gameState = JSON.parse(localStorage.getItem("gameState") as string);
     const lastAction = gameState.actions[gameState.actions.length - 1];
 
     return (

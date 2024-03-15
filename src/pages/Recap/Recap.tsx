@@ -10,11 +10,9 @@ const Recap = () => {
     const gameState = JSON.parse(localStorage.getItem("gameState") as string);
     const settings = gameState.settings;
     const actions = gameState.actions;
-    const lastAction = gameState.actions[gameState.actions.length - 1];
 
     const throwActions = actions.filter((action: any) => action.type === "throw");
     const playerOneCheckouts = calculateCheckouts(throwActions, 1);
-    const playerTwoCheckouts = calculateCheckouts(throwActions, 2);
 
     const deleteGameFromLocalStorage = () => {
         localStorage.clear();

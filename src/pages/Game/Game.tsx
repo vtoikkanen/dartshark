@@ -35,7 +35,6 @@ const Game = () => {
         const newAction = { ...latestAction };
         const activePlayer = latestAction.activePlayer;
         const currentThrow = latestAction.currentThrow;
-        const bust = latestAction.bust;
         const playerOneScore = latestAction.playerOneScore;
         const playerTwoScore = latestAction.playerTwoScore;
         const playerOneLegsWon = latestAction.playerOneLegsWon;
@@ -46,7 +45,6 @@ const Game = () => {
         const set = parseInt(latestAction.set);
         const legWon = latestAction.legWon;
         const setWon = latestAction.setWon;
-        const gameWon = latestAction.gameWon;
 
         let newPlayer;
         let newPlayerOneScore = playerOneScore;
