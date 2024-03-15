@@ -6,7 +6,6 @@ import styles from "./FrontPage.module.css";
 
 const FrontPage = () => {
     const gameState = JSON.parse(localStorage.getItem("gameState") as string);
-    console.log(gameState);
 
     return (
         <PageMainContent>
